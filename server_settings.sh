@@ -22,4 +22,4 @@ rm -rf requirements.txt
 echo -e '[program:bot]\ncommand=python3.11 /root/bot.py > /dev/null 2>&1\nautostart=true\nautorestart=true\nuser=root' > /etc/supervisor/conf.d/bot.conf
 supervisorctl reread
 supervisorctl update
-echo -e 'SHELL=/bin/bash\n0 3 * * * reboot\n0 12 * * * supervisorctl restart bot' | crontab -
+echo -e 'SHELL=/bin/bash\n0 3 * * * reboot\n0 10 * * * supervisorctl restart bot' | crontab -
