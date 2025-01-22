@@ -21,5 +21,5 @@ flask==2.3.1
 flask-httpauth==4.8.0
 pyyaml==6.0
 aaioasync==0.1.9
-pandas
+openpyxl
 freekassa-ru==0.0.7
