@@ -44,7 +44,7 @@ if not TEST:
     # result = run('pip install flask==2.3.1 flask-httpauth==4.8.0 --break-system-packages', shell = True, capture_output = True, encoding='cp866')
     # result = result.stdout + '\n\n' + result.stderr
     # if 'no such option' in result:
-    result = run('pip install flask flask-httpauth', shell = True, capture_output = True, encoding='cp866')
+    result = run('pip install flask==2.3.1 flask-httpauth==4.8.0', shell = True, capture_output = True, encoding='cp866')
     result = result.stdout + '\n\n' + result.stderr
     logger.debug(result)
 
