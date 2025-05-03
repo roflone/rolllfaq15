@@ -21,3 +21,7 @@ remnawave_api==1.0.7
 pycountry
 qrcode==7.4.2
 outline-vpn-api==3.0.0
+freekassa-ru==0.0.7
+aaioasync==0.1.9
+tinkoff-acquiring-api==0.1.3
+walletpay==1.3.1
